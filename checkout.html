@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f12e4b01cc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <div class="heading" id="heading">
+        <h1 class="head1"><a href="index.html">Electronics Store</a></h1>
+        <input type="text" placeholder="e.g. smart watch" name="search" class="head2">
+        <a href="cart.html" class="head3">Cart ( <i class="fas fa-cart-plus"></i> )
+    </div>
+    <h2 class="checkout">Checkout</h2>
+    <div class="form-section">
+        <section>
+            <h5>Account Information</h5><br>
+            <form action="">
+                <input type="email" id="emailid" name="" placeholder="Email id" required><br><br>
+                <input type="tel" id="telid" name="" placeholder="Phone number" required><br><br>
+            </form>
+            <h5>Shipping Address</h5><br>
+            <form action="">
+                <input type="text" id="address" name="" placeholder="Address"><br><br>
+                <input type="text" id="city" name="" placeholder="City"><br><br>
+                <input type="text" id="state" name="" placeholder="State/Province"><br><br>
+                <input type="text" id="zip-code" name="" placeholder="Zip/Postal Code" required><br><br>
+                <label for="Country">Country:</label>
+                <select name="country">
+                    <option value="India" selected>India</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Vietnam">Vietnam</option>
+                </select>
+            </form><br>
+        </section>
+        <section>
+            <h5>Enter Debit Card Details</h5><br>
+            <form action="">
+                <input type="text" id="card-num" name="" placeholder="Card Number" required><br><br>
+                <input type="text" id="card-name" name="" placeholder="Cardholder Name" required><br><br>   
+                <label for="Country">Expiry</label><br>
+                <select name="Month">
+                    <option value="1" selected>January</option>
+                    <option value="2">Febraury</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select name="Year">
+                    <option value="1" selected>2020</option>
+                    <option value="2">2021</option>
+                    <option value="3">2022</option>
+                    <option value="4">2023</option>
+                    <option value="5">2024</option>
+                    <option value="6">2025</option>
+                    <option value="7">2026</option>
+                    <option value="8">2027</option>
+                    <option value="9">2028</option>
+                    <option value="10">2029</option>
+                    <option value="11">2030</option>
+                    <option value="12">2031</option>
+                </select>
+            </form><br><br>
+            <h5>Order Summary :-</h5>
+            <ul>
+                <li>
+                    <p>Java The Complete Reference</p><br>
+                    <p>Quantity: 1</p>
+                </li>
+                <hr>
+                <li>
+                    <h5>Total: &#8377; 1,200.00</h5>
+                </li>
+                <hr>
+            </ul>
+        </section>
+    </div>
+    <div>
+        <button type="submit">PLACE ORDER</button>
+    </div>
+    <div class="return">
+        <h3><a href="#heading">Back to top <i class="fas fa-arrow-up"></i></a>
+            <br><br><br>
+        <small>Copyright &copy; 2021, Krunalkumar Shah</small></u></h3>
+    </div>
+</body>
+</html>
